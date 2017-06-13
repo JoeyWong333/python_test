@@ -6,7 +6,7 @@
 create:2017-0613
 """
 
-#系统进程监控
+#使用psutil 系统进程监控
 import psutil,datetime
 
 def systemInfo():
