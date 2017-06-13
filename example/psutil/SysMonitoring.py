@@ -3,7 +3,7 @@
 
 """
 @author:Joey
-create:2017-0613
+create:2017-06-13
 """
 
 #使用psutil 系统进程监控
@@ -38,7 +38,7 @@ def systemInfo():
     print("查看系统全部进程："+str(psutil.pids()))
 
     #查看单个进程
-    p = psutil.Process(3172)
+    p = psutil.Process(1160)
     print("3172进程名:"+str(p.name()))  # 进程名
     #p.exe()  # 进程的bin路径
     #p.cwd()  # 进程的工作目录绝对路径

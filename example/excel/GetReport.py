@@ -15,11 +15,11 @@ def GetReport(jsonStr):
     file = xlwt.Workbook()
     ws = file.add_sheet('Result Sheet')
     #添加title
-    ws.write(0, 0,"SQL")
+    ws.write(0, 0, "SQL")
     ws.write(0, 1, "Server")
     ws.write(0, 2, "Client")
     ws.write(0, 3, "runSql")
-    beginRow = 0;
+    beginRow = 0
     #循环将数据插入Excel
     for i in range(0,len(sqlList)):
         sqlResult = sqlList[i]
